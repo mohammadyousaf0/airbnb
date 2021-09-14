@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#wrapper {
+    margin: 30px;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+    display: block;
+}
+
+/* alt flex */
+.headermid, .headerright, .headerrightchildren, header nav, .headerrightfirstchildren, .filtre, .flexhouseimgtext, .smalltext, .review, .parent, .firstchild, .imgflex {
+    display: flex;
+}
+
+.imggrids {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 0.2fr; 
+    gap: 5px 10px;
+    height: 300px;
+    width: 1700px;
+}
+
+
+
+header nav  {
+    justify-content: space-between;
+    margin: 0 50px 0 20px;
+}
+
+.startmain {
+    margin: 100px 0 20px 0;
+}
+
+.headerleft img {
+    height: 40px;
+    width: 150px;
+}
+
+.headermid, .filtre p {
+    border: 1px solid black;
+    border-radius: 40px;
+    padding: 15px 10px 15px 15px; 
+}
+
+.filtre {
+    margin-bottom: 20px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.filtre :nth-child(2) {
+    border: solid 2px black;
+    font-weight: bold;
+}
+
+.filtre p:hover {
+    transition: 1s;
+    border: solid 2px black;
+    font-weight: bold;
+}
+
+.headermid :last-child {
+    background-color: red;
+    border-radius: 40px;
+    padding: 10px;
+    color: white;
+}
+
+.headerrightchildren {
+    border: 1px solid black;
+    border-radius: 40px;
+    padding: 15px 5px 5px 15px;
+}
+
+.headerrightchildren :nth-child(2) {
+    font-size: 1.6em;
+}
+
+.headerrightfirstchildren {
+    margin: 15px 10px 15px 15px;
+}
+
+.headermid p, .headerright p, .headerright i {
+    margin-right: 10px;
+    padding-right: 10px;
+}
+
+.headermid :first-child, .headermid :nth-child(2), .headermid :nth-child(3), .headerrightfirstchildren, .headerrightchildren i {
+    padding-top: 5px;
+}
+
+.headermid :first-child, .headermid :nth-child(2) {
+    border-right: 1px solid black;
+}
+
+.headermid :first-child {
+    font-weight: bold;
+}
+
+.filtre p {
+    margin-right: 10px;
+}
+
+.startmain :first-child {
+    margin-bottom: 10px;
+}
+
+.mapouter {
+    float: right;
+}
+
+.flexhouseimgtext {
+    margin-top: 40px;
+}
+
+.hus img {
+    height: 250px;
+    width: 400px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.hus {
+    margin-right: 10px;
+}
+
+.smalltext p, .guest {
+    font-size: small;
+    color: gray;
+}
+
+.smalltext {
+    margin-bottom: 5px;
+    justify-content: space-between;
+}
+
+.smalltext i {
+    transition: 500ms;
+}
+
+.smalltext i:hover {
+    color: red;
+    transition: 500ms;
+}
+
+.guest {
+    margin-bottom: 130px;
+    margin-top: 30px;
+}
+
+.vej {
+    font-size: larger;
+    cursor: pointer;
+}
+
+.review i {
+    color: orange;
+    margin-right: 5px;
+}
+
+.scrollhouse {
+    height: 380px;
+    overflow-y: auto;
+}
+
+.vej a {
+    text-decoration: none;
+    color: black;
+}
+
+.fa-circle {
+    font-size: 0.01em;
+    position: relative;
+    bottom: 3px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+#hus-html-header a {
+    color: black;
+}
+
+#hus-html-header h1, .secondchild p {
+    margin-bottom: 10px;
+}
+
+.parent {
+    justify-content: space-between;
+}
+
+.secondchild a, .secondchild i {
+    margin: 0 3px 0 3px;
+}
+
+#hus-html-header .fa-star, #hus-html-header .fa-map-marker-alt, #hus-html-header .fa-home-lg-alt {
+    color: red;
+}
+
+.bigimg {
+    width: 2000px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.pgrids {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 0.5fr;
+    justify-content: space-around;
+    margin: 0 800px 0 0;
+}
+
+.pgrids i {
+    margin-right: 5px;
+}
+
+.tilbyder {
+    margin-bottom: 10px;
+}
+
+.facilBtn {
+    padding: 10px;
+    border: solid 1px black;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    margin-top: 10px;
+    transition: 300ms;
+}
+
+.facilBtn:hover {
+    transition: 300ms;
+    border: solid 2px black;
+    font-weight: bold;
+}
