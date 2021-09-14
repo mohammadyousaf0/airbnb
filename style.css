@@ -16,7 +16,7 @@ img {
 }
 
 /* alt flex */
-.headermid, .headerright, .headerrightchildren, header nav, .headerrightfirstchildren, .filtre, .flexhouseimgtext, .smalltext, .review, .parent, .firstchild, .imgflex {
+.headermid, .headerright, .headerrightchildren, header nav, .headerrightfirstchildren, .filtre, .flexhouseimgtext, .smalltext, .review, .parent, .firstchild, .imgflex, .flexperson, .vært {
     display: flex;
 }
 
@@ -208,7 +208,7 @@ header nav  {
 .bigimg {
     width: 2000px;
     margin-right: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
 }
 
 .pgrids {
@@ -241,4 +241,27 @@ header nav  {
     transition: 300ms;
     border: solid 2px black;
     font-weight: bold;
+}
+
+.grey {
+    color: grey;
+    margin-bottom: 10px;
+}
+
+.vært p, .vært i{
+    margin: 0 5px 0 5px;
+}
+
+.vært i {
+    color: red;
+}
+
+.flexperson {
+    margin-top: 50px;
+}
+
+.flexperson section img {
+    height: 300;
+    width: 200;
+    margin-right: 20px;
 }
