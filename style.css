@@ -16,7 +16,7 @@ img {
 }
 
 /* alt flex */
-.headermid, .headerright, .headerrightchildren, header nav, .headerrightfirstchildren, .filtre, .flexhouseimgtext, .smalltext, .review, .parent, .firstchild, .imgflex, .flexperson, .vært {
+.headermid, .headerright, .headerrightchildren, header nav, .headerrightfirstchildren, .beskyt, .filtre, .flexhouseimgtext, .smalltext, .review, .parent, .firstchild, .imgflex, .flexperson, .vært {
     display: flex;
 }
 
@@ -245,15 +245,17 @@ header nav  {
 
 .grey {
     color: grey;
-    margin-bottom: 10px;
+    margin-bottom: 80px;
+    margin-top: 5px;
 }
 
-.vært p, .vært i{
-    margin: 0 5px 0 5px;
+.vært p {
+    margin-right: 20px;
 }
 
 .vært i {
     color: red;
+    margin-right: 5px;
 }
 
 .flexperson {
@@ -261,7 +263,26 @@ header nav  {
 }
 
 .flexperson section img {
-    height: 300;
-    width: 200;
+    height: 150;
+    width: 100;
     margin-right: 20px;
+}
+
+.bold {
+    font-weight: bold;
+    color: black;
+}
+
+.persontext p {
+    margin: 7px 0 7px 0;
+}
+
+.beskyt i {
+    position: relative;
+    top: 15px;
+    margin-right: 10px;
+}
+
+.beskyt {
+    margin-top: 10px;
 }
