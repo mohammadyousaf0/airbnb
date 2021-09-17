@@ -1,0 +1,40 @@
+{
+  "huse": [
+    {
+      "id": 1,
+      "smallText": "Flot hus i Rødby",
+      "roadName": "Landevej",
+      "guests": "6 gæster - 2 soveværelser - 6 senge - 1 badværelse",
+      "reviews": "4,90 (143 omtaler)"
+    },
+
+    {
+      "id": 2,
+      "smallText": "Flot hus i København",
+      "roadName": "Nørreport",
+      "guests": "5 gæster - 2 soveværelse - 3 senge - 1 badværelse",
+      "reviews": "3,40 (78 omtaler)"
+    },
+    {
+      "id": 3,
+      "smallText": "Flot hus i Nivå",
+      "roadName": "Atlasvænge",
+      "guests": "3 gæster - 1 soveværelser - 3 senge - 1 badværelse",
+      "reviews": "4,10 (29 omtaler)"
+    },
+    {
+      "id": 4,
+      "smallText": "Flot hus i Aarhus",
+      "roadName": "Tykkegården",
+      "guests": "4 gæster - 2 soveværelser - 4 senge - 2 badværelse",
+      "reviews": "4,90 (143 omtaler)"
+    },
+    {
+      "id": 5,
+      "smallText": "Flot hus i Roskilde",
+      "roadName": "Pulsen",
+      "guests": "100 gæster - 50 soveværelser - 100 senge - 15 badværelse",
+      "reviews": "5,50 (193 omtaler)"
+    }
+  ]
+}

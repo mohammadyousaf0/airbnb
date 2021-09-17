@@ -1,4 +1,4 @@
-/* let wrapperElement = document.querySelector("#team");
+let wrapperElement = document.querySelector("#team");
 
 fetch("./teamdata.json")
 .then((response) => response.json())
@@ -9,4 +9,4 @@ fetch("./teamdata.json")
         <p class="firstName">${teamMember.firstName}</p>
       </section>`
     })
-}) */
+})
