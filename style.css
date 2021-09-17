@@ -6,7 +6,7 @@
 }
 
 #wrapper {
-    margin: 30px;
+    margin: 15px 30px 10px 30px;
 }
 
 img {
@@ -29,11 +29,12 @@ img {
     width: 1700px;
 }
 
-
+.headermid, .headerrightchildren {
+    box-shadow: 1px 1px 19px 0px rgba(0,0,0,0.3);
+}
 
 header nav  {
     justify-content: space-between;
-    margin: 0 50px 0 20px;
 }
 
 .startmain {
@@ -41,14 +42,17 @@ header nav  {
 }
 
 .headerleft img {
-    height: 40px;
-    width: 150px;
+    height: 30px;
+    width: 100px;
+}
+
+.headerleft {
+    align-self: center;
 }
 
 .headermid, .filtre p {
-    border: 1px solid black;
-    border-radius: 40px;
-    padding: 15px 10px 15px 15px; 
+    border-radius: 30px;
+    padding: 10px 10px 10px 10px; 
 }
 
 .filtre {
@@ -62,6 +66,10 @@ header nav  {
     font-weight: bold;
 }
 
+.filtre p {
+    border: solid 1px black;
+}
+
 .filtre p:hover {
     transition: 1s;
     border: solid 2px black;
@@ -71,30 +79,27 @@ header nav  {
 .headermid :last-child {
     background-color: red;
     border-radius: 40px;
-    padding: 10px;
+    padding: 8px;
     color: white;
+    font-size: small;
 }
 
 .headerrightchildren {
-    border: 1px solid black;
-    border-radius: 40px;
-    padding: 15px 5px 5px 15px;
+    border-radius: 30px;
+    padding: 0 0 5px 15px;
 }
 
 .headerrightchildren :nth-child(2) {
     font-size: 1.6em;
 }
 
-.headerrightfirstchildren {
-    margin: 15px 10px 15px 15px;
-}
-
 .headermid p, .headerright p, .headerright i {
-    margin-right: 10px;
+    margin-right: 5px;
     padding-right: 10px;
+    align-self: center;
 }
 
-.headermid :first-child, .headermid :nth-child(2), .headermid :nth-child(3), .headerrightfirstchildren, .headerrightchildren i {
+.headerrightfirstchildren, .headerrightchildren i {
     padding-top: 5px;
 }
 
@@ -104,6 +109,7 @@ header nav  {
 
 .headermid :first-child {
     font-weight: bold;
+    padding-left: 10px;
 }
 
 .filtre p {
@@ -168,7 +174,7 @@ header nav  {
 }
 
 .scrollhouse {
-    height: 380px;
+    height: 450px;
     overflow-y: auto;
 }
 
@@ -185,11 +191,11 @@ header nav  {
     margin-left: 5px;
 }
 
-#hus-html-header a {
+#hus-html-main a {
     color: black;
 }
 
-#hus-html-header h1, .secondchild p {
+#hus-html-main h1, .secondchild p {
     margin-bottom: 10px;
 }
 
@@ -201,7 +207,7 @@ header nav  {
     margin: 0 3px 0 3px;
 }
 
-#hus-html-header .fa-star, #hus-html-header .fa-map-marker-alt, #hus-html-header .fa-home-lg-alt {
+#hus-html-main .fa-star, #hus-html-main .fa-map-marker-alt, #hus-html-main .fa-home-lg-alt {
     color: red;
 }
 
